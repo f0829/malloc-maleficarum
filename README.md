@@ -13,3 +13,6 @@
 | large bin attack                 | Exploiting the overwrite of a freed chunk on large bin freelist to write a large value into arbitrary address.                            |
 | mmap overlapping chunks          | Exploit an in use mmap chunk in order to make a new allocation overlap with a current mmap chunk.                                         |
 
+
+Almost all the examples here were taken from the shellphish team's "how2heap" repository:
+https://github.com/shellphish/how2heap
